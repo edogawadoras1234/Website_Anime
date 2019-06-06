@@ -1,0 +1,228 @@
+﻿body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  float:left;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height:630px;
+  background-color: white;
+  font-size:18px;
+  color:#333399;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+ 
+}
+
+header nav ul li ul li {
+  display: block;
+  width: 200px;
+}
+
+
+nav
+{
+  width: 844px;
+}
+
+#showcase {
+
+  width:1150px;
+  margin-left:100px;
+  float:left;
+}
+
+
+aside
+{
+  font-size: 20px;
+  color: Red;
+  background-color: lightblue;
+  width: 150px;
+  height:400px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  float: right;
+  padding-top: 10px;
+}
+.menu {
+    float:right;
+    margin-right:-60px;
+}
+.anhheader {
+    margin-top:4px;
+    margin-left:72px;
+}
+.thanhcc {
+    background-color:white;
+}
+
+input {
+    background-color:white;
+    color:white;
+    border:none;
+}
+button {
+    padding-top:7px;
+    padding-bottom:7px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    border:none;
+    background-color:white;
+}
+label {
+    color:white;
+}
+.menu {
+    background-color:lightgreen;
+    padding:10px 20px 10px 20px;
+
+}
+div.gallery {
+    margin: auto;
+    border: 3px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-left:20px;
+    margin-top:20px;
+    margin-right:20px;
+}
+
+    div.gallery:hover {
+        border: 3px solid red;
+     }
+
+div.gallery img {
+    height: 165px;
+    width:180px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color:white;
+    height:40px;
+}
+.anhnentrangchu {
+    background-image:url(/Images/anhnen.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.content {
+    font-size:30px;
+    font-weight:bold;
+}
+    .content h1 {
+        color:red;
+    }
+    .content p {
+        color:red;
+    }
+textbox {
+    border-color:black;
+}
+.nen {
+    top:0;
+    left:0;
+    float:right;
+    height:100px;
+    width:100%;
+}
+.ErrorMessage {
+     color: Red;
+
+}
+.AJAX {
+    height:32px;
+    width:500px;
+    background-image:url(Images/ajax.gif);
+    background-repeat:no-repeat;
+    padding-left:40px;
+    line-height:32px;
+}
+.Attention {
+    border:4px solid red;
+    padding: 10px 0;
+    width:100px;
+    margin:auto;
+    display:block;
+    text-align:center;
+}
+.buttonsend {
+    padding-top:7px;
+    padding-bottom:7px;
+    font-size:16px;
+    font-weight:bold;
+    border:inset;
+    color:black;
+    border-radius:20px;
+    background-color:yellow;
+   }
+div.dangnhap {
+    float:left;
+    width:300px;
+    margin-top:20px;
+    margin-left:100px;
+}
+    div.dangnhap input {
+        margin-top:10px;
+    }
+    .bann {
+     float:left;
+     font-size: 25px;
+     color: Red;
+     width: 200px;
+     height: 600px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+    }
+.bann img {
+    height:500px;
+    width:200px;
+}
+.phim {
+    margin-right:0px;
+    float:right;
+    height:auto;
+    width:300px;
+    background-color:black;
+    min-height:500px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    color:white;
+}
+    .phim.mucphim {
+            height:50px;
+            width:auto;   
+            font-size: 12px;
+    }
+    .phim.phim img {
+        margin-top:10px;
+        float:left;
+        width: auto;
+        height: 50px;
+        border: 1px solid #CCC;
+    }
+    .phim.phim p {
+        margin-left:5px;
+        color:white;
+        line-height:8px;
+    }
+.dangki {
+    float:left; 
+    margin-left:20px;
+    background-color:lightgoldenrodyellow;
+    padding-left:10px;
+    padding-right:0px;
+}

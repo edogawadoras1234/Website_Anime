@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
+
+<%@ Register Src="~/Banner.ascx" TagPrefix="havantam" TagName="Banner" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head runat="server">
+    <title></title>  
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+     <form id="form1" runat="server">
+         <asp:ScriptManager ID="ScriptManager1" runat="server">
+             <Scripts>
+                 <asp:ScriptReference Name="jquery"/>
+             </Scripts>
+        </asp:ScriptManager>
+    <div>
+      <div class="nen" style="background-image:url(../Images/nenConan.jpg)">
+    </div>
+        <header>
+            <img src="../theloai/Screenshot%20(40).jpg" class="anhheader" height="40" width="100"/>
+           <nav>
+              <ul>
+                  <asp:Menu ID="Menu1" runat="server"  DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+                  <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False"/>
+               </ul>
+          </nav>
+            <div class="menu">                  
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" >
+            </asp:TreeView>
+                </div>
+                 
+    </header>
+        <div class="thanhcc">
+            <label>Tìm kiếm</label>
+            <input name="timkiem"/>
+            <button>Serch</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button><a href= "../theloai/dangnhap.aspx">Đăng nhập</a></button>
+            <button><a href="../theloai/dangki.aspx">Đăng kí</a></button>
+        </div>
+        <div class="sitemenu">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+        </div>
+            
+        <section id="showcase">
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server">       
+           
+        </asp:ContentPlaceHolder>
+            </section>       
+            <aside>
+                <p>Vui lòng chọn phiên bản
+                </p>
+                <div class="cbbox">
+            <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged">
+                <asp:ListItem>Horizontal</asp:ListItem>
+                <asp:ListItem>Vertical</asp:ListItem>
+            </asp:DropDownList>
+                    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+                <havantam:Banner runat="server" ID="Banner" />
+                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+             <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+            <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick" Interval="1000"></asp:Timer>
+            </ContentTemplate>
+        </asp:UpdatePanel>                
+            </aside>        
+    </div>
+    <p>
+&nbsp;&nbsp;
+        
+    </p>
+    </form>
+    </body>
+</html>

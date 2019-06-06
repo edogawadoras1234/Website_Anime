@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Trang chủ"  description="Home">
+
+    <siteMapNode url="~/theloai/TrangChu.aspx" title="Trang chủ"  description="Trang chủ" />
+    <siteMapNode url="~/theloai/theloai.aspx" title="Thể loại"  description="Thể loại">
+      <siteMapNode url="~/theloai/chienthuat.aspx" title="Chiến thuật" />
+      <siteMapNode url="~/theloai/sieunhan.aspx" title="Siêu nhân" />
+      <siteMapNode url="~/theloai/trinhtham.aspx" title="Trinh thám" />
+      <siteMapNode url="~/theloai/hentai.aspx" title="Hentai" />
+      <siteMapNode url="~/theloai/hanhdong.aspx" title="Hành động"/>
+      <siteMapNode url="" title="Tình cảm" />
+      <siteMapNode url="" title="Tâm lý" />
+      <siteMapNode url="" title="Hài hước" />
+      <siteMapNode url="" title="Học đường" />
+
+    </siteMapNode>
+
+    <siteMapNode url="~/BXH/BXH.aspx" title="BXH" description="Bảng xếp hạng">
+      <siteMapNode url="" title="Tuần"/>
+      <siteMapNode url="" title="Tháng" />
+      <siteMapNode url="" title="Năm" />
+    </siteMapNode>
+
+    <siteMapNode url="~/QuocGia/QuocGia.aspx" title="Quốc gia"  description="Quốc gia">
+      <siteMapNode url="" title="Nhật Bản" />
+      <siteMapNode url="" title="Việt Nam" />
+      <siteMapNode url="" title="Hàn Quốc" />
+      <siteMapNode url="" title="Mỹ" />
+      <siteMapNode url="" title="Trung Quốc" />
+      <siteMapNode url="" title="Hàn Quốc" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Nam/Nam.aspx" title="Năm"  description="Năm sản xuất">
+      <siteMapNode url="" title="2008" />
+      <siteMapNode url="" title="2009" />
+      <siteMapNode url="" title="2010" />
+      <siteMapNode url="" title="2011" />
+      <siteMapNode url="" title="2012" />
+      <siteMapNode url="" title="2013" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

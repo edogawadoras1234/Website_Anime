@@ -1,0 +1,6 @@
+﻿Xin chào, đây là thông tin của bạn:
+Tên:					##Name##,
+Email					##Email##,
+Số điện thoại cá nhân:	##HomePhone##,
+Số điện thoại cơ quan:	##BusinessPhone##,
+Chú thích:				##Comments##.
