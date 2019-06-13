@@ -1,7 +1,7 @@
 <h1> Website anime.vn </h1>
 <h2> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </h2>
-
 <img src="imgReadMe/TrangChu.png" alt="trang chủ" width="700px"/>
+
 
 <p><i> Khi click vào thể loại, sẽ có rất nhiều phim hiện ra </i></p>
 <img src="imgReadMe/TheLoai.png" alt="thể loại" width="700px"/>
