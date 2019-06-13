@@ -1,4 +1,4 @@
-<h1> Website anime.vn </h1>
+<h1>Bài tập web ASP.net</h1>
 <h2> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </h2>
 <h2> Có 2 giao diện người dùng, ta có thể thay đổi tùy theo ý thích của mình </h2>
 <img src="imgReadMe/TrangChu.png" alt="trang chủ" width="700px"/>
@@ -27,13 +27,14 @@
 
 <p><i>Và nếu chưa có tài khoản thì trang sẽ thông báo đăng kí thành công</i></p>
 <img src="imgReadMe/dangkidung.png" alt="Đăng kí đúng" width="700px">
+<p><i>Khi bấm nút đăng kí, dữ liệu sẽ được thêm vào bảng TaiKhoan trong cơ sở dữ liệu</i></p>
+<img src="imgReadMe/sql.JPG" alt="Dữ liệu sql" width="300px">
 
-<p><i> Đăng nhập phải ghi đúng tài khoản đã đăng kí, ghi sai sẽ thông báo sai tài khoản/mật khẩu</i></p>
-<img src="imgReadMe/dangnhapsai.png" alt="Đăng nhập sai" width="700px">
+<p><i> Khi bấm vào nút đăng nhập, tài khoản và mật khẩu sẽ được so sánh với dữ liệu trong bảng TaiKhoan</i></p>
+<p><i> Nếu dữ liệu đúng, thông báo đăng nhập thành công, dữ liệu sai, sẽ thông báo sai tài khoản/mật khẩu</i></p>
 <img src="imgReadMe/dangnhap2.png" alt="Đăng nhập sai" width="700px">
+<img src="imgReadMe/dangnhapsai.png" alt="Đăng nhập sai" width="700px">
 
 <p><i> Đăng nhập đúng sẽ đăng nhập thành công</i></p>
 <img src="imgReadMe/dangnhapdung.png" alt="Đăng nhập đúng" width="700px">
 
-<p>Dữ liệu sql</p>
-<img src="imgReadMe/sql.JPG" alt="Dữ liệu sql" width="300px">
