@@ -1,6 +1,7 @@
 <h1>Bài tập web ASP.net</h1>
-<h2> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </h2>
-<h2> Có 2 giao diện người dùng, ta có thể thay đổi tùy theo ý thích của mình </h2>
+<h2>Chủ đề web hoạt hình Anime.vn<h2>
+<h3> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </h3>
+<h3> Có 2 giao diện người dùng, ta có thể thay đổi tùy theo ý thích của mình </h3>
 <img src="imgReadMe/TrangChu.png" alt="trang chủ" width="700px"/>
 <img src="imgReadMe/trangchu2.png" alt="trang chủ" width="700px"/>
 
