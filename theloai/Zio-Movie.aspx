@@ -1,23 +1,15 @@
-﻿<%@ Page Title="Đăng nhập" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="dangnhap.aspx.cs" Inherits="theloai_dangnhap" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Zio-Movie.aspx.cs" Inherits="theloai_Zio_Movie" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" Runat="Server">
-   <body>
      <div class="bann">
         <img src="../Images/Build.jpg" />
         </div>
-    <div class="dangnhap">   
-        <h2>Đăng nhập</h2>    
-    <asp:TextBox ID="TK" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Inset"></asp:TextBox>
-    <br />
-    <asp:TextBox ID="MK" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Inset"></asp:TextBox>
-    <br />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <asp:Button ID="DangNhap" runat="server" Text="Đăng nhập" BorderStyle="Inset" ForeColor="#FF0066" OnClick="DangNhap_Click" />
-    <br />
-   &nbsp;&nbsp; <asp:Label ID="thongbao" runat="server" Text=""></asp:Label>
-        </div>
+
+    <iframe style="margin-top:10px;margin-left:10px;" width="60%" height="500" src="https://www.youtube.com/embed/RLjDf4S96Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
     <div class="phim"> 
         <h1>Top phim tuần</h1>
         <div style="padding-bottom:10px;border-bottom-style:dotted">
@@ -50,6 +42,5 @@
         <p class="mucphim">23 phút/tập</p>
             </div>
     </div>    
-       </body>
 </asp:Content>
 
