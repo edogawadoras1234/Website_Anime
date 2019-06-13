@@ -11,3 +11,12 @@
 
 <p><i>Click vào ảnh của phim để xem phim</i></p>
 <img src="imgReadMe/Phim.png" alt="Xem Kamen Rider Xio" width="700px"/>
+
+<h2>Tiếp theo sẽ là phần đăng kí</h2>
+<img src="imgReadMe/dangki.png" alt="đăng kí"width="700px"/>
+
+<i>Nếu tài khoản đã tồn tại, trang sẽ thông báo tài khoản tồn tại</i>
+<img src="imgReadMe/dangkisai.png" alt="Đăng kí sai" width="700px">
+
+<i>Và nếu chưa thì trang sẽ thông báo đăng kí thành công</i>
+<img src="imgReadMe/dangkidung.png"alt="Đăng kí sai" width="700px">
