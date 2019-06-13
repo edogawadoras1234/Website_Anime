@@ -7,7 +7,7 @@
 
 <p><i> Khi click vào thể loại, sẽ có rất nhiều phim hiện ra </i></p>
 <img src="imgReadMe/TheLoai.png" alt="thể loại" width="700px"/>
-<img src="imgReadMe/tloai2.png" alt="thể loại" width="700px"/>
+<img src="imgReadMe/thloai2.png" alt="thể loại" width="700px"/>
 
 
 <p><i>và khi click vào một bộ phim nào đó, sẽ hiện lên thông tin chi tiết của phim </i></p>
@@ -35,3 +35,4 @@
 <p><i> Đăng nhập đúng sẽ đăng nhập thành công</i></p>
 <img src="imgReadMe/dangnhapdung.png" alt="Đăng nhập đúng" width="700px">
 <p>Dữ liệu sql</p>
+<img src="imgReadMe/sql.jpg" alt="Đăng nhập đúng" width="700px">
