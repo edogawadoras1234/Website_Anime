@@ -1,5 +1,5 @@
 <h1> Website anime.vn </h1>
-<h2> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </p>
+<h2> Đây là trang web về các loại phim anime theo nhiều thể loại, năm sản xuất, quốc gia và có các bảng xếp hạng về phim </h2>
 
 <img src="imgReadMe/TrangChu.png" alt="trang chủ" width="700px"/>
 
@@ -20,4 +20,9 @@
 
 <p><i>Và nếu chưa có tài khoản thì trang sẽ thông báo đăng kí thành công</i></p>
 <img src="imgReadMe/dangkidung.png" alt="Đăng kí đúng" width="700px">
-<p><i> Đăng nhập</i></p>
+
+<p><i> Đăng nhập phải ghi đúng tài khoản đã đăng kí, ghi sai sẽ thông báo sai tài khoản/mật khẩu</i></p>
+<img src="imgReadMe/dangnhapsai.png" alt="Đăng nhập sai" width="700px">
+
+<p><i> Đăng nhập đúng sẽ đăng nhập thành công</i></p>
+<img src="imgReadMe/dangnhapdung.png" alt="Đăng nhập đúng" width="700px">
