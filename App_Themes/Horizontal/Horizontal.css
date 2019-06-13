@@ -252,7 +252,6 @@ div.gallery {
     background-color:yellow;
    }
 .nendangnhap {
-    color:lavender;
     width:100%;
     height:100%;
 }
@@ -265,16 +264,12 @@ div.dangnhap {
     div.dangnhap input {
         margin-top:10px;
     }
-    div.dangnhap button {
-        
-    }
     .bann {
      float:left;
      font-size: 25px;
      color: Red;
      width: 200px;
      height: 600px;
-     padding-top: 10px;
      padding-bottom: 10px;
      padding-left: 10px;
     }
@@ -288,7 +283,7 @@ div.dangnhap {
     width:300px;
     background-color:black;
     min-height:500px;
-    margin-top: 0px;
+    margin-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right:10px;
@@ -313,6 +308,7 @@ div.dangnhap {
         line-height:8px;
     }
 .dangki {
+    background-color:white;
     font-size:20px;
     color:black;
     float:left; 

@@ -9,7 +9,7 @@
     <div class="bann">
         <img src="../Images/Build.jpg" />
         </div>
-    <div class="dangki" style="background-color:lightblue">
+    <div class="dangki">
     <havantam:ContactForm runat="server" ID="ContactForm"/>
     </div>
 

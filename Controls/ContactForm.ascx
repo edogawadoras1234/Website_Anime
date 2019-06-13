@@ -82,7 +82,7 @@
    <div id="TableWrapper">
 <table class="auto-style1" runat="server" id="FormTable">
     <tr>
-        <td colspan="2"><h3>Nhập thông tin</h3></td>
+        <td colspan="2"><h3>Đăng kí tài khoản</h3></td>
         <td>&nbsp;</td>
     </tr>
     <tr>

@@ -12,7 +12,7 @@
 
     <div class="gallery">
     <asp:Panel ID="Panel2" runat="server" Height="163px" Width="159px">
-        <img  src="../Images/Zi-O_Poster-1.png" />
+        <a href="KamenRiderZio.aspx"><img  src="../Images/Zi-O_Poster-1.png" /></a>
     </asp:Panel>
         <div class="desc">Kamen Rider Zi-O</div>
         </div>
