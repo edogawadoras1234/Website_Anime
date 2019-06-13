@@ -15,8 +15,9 @@
 <h2>Tiếp theo sẽ là phần đăng kí</h2>
 <img src="imgReadMe/dangki.png" alt="đăng kí"width="700px"/>
 
-<i>Nếu tài khoản đã tồn tại, trang sẽ thông báo tài khoản tồn tại</i>
+<p><i>Nếu tài khoản đã tồn tại, trang sẽ thông báo tài khoản tồn tại</i></p>
 <img src="imgReadMe/dangkisai.png" alt="Đăng kí sai" width="700px">
 
-<i>Và nếu chưa thì trang sẽ thông báo đăng kí thành công</i>
-<img src="imgReadMe/dangkidung.png"alt="Đăng kí sai" width="700px">
+<p><i>Và nếu chưa có tài khoản thì trang sẽ thông báo đăng kí thành công</i></p>
+<img src="imgReadMe/dangkidung.png" alt="Đăng kí đúng" width="700px">
+<p><i> Đăng nhập</i></p>
