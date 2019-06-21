@@ -33,11 +33,11 @@
 
 <p><i> Khi bấm vào nút đăng nhập, tài khoản và mật khẩu sẽ được so sánh với dữ liệu trong bảng TaiKhoan</i></p>
 <p><i> Nếu dữ liệu đúng, thông báo đăng nhập thành công, dữ liệu sai, sẽ thông báo sai tài khoản/mật khẩu</i></p>
-<img src="imgReadMe/dangnhap2.png" alt="Đăng nhập sai" width="700px">
-<img src="imgReadMe/dangnhapsai.png" alt="Đăng nhập sai" width="700px">
+<img src="imgReadMe/dangnhap.png" alt="Đăng nhập" width="700px">
+<img src="imgReadMe/dnsai.png" alt="Đăng nhập sai" width="700px">
 
 <p><i> Đăng nhập đúng sẽ đăng nhập thành công</i></p>
-<img src="imgReadMe/dangnhapdung.png" alt="Đăng nhập đúng" width="700px">
+<img src="imgReadMe/dndung.png" alt="Đăng nhập đúng" width="700px">
 
 <p><i> Khi người dùng quên mật khẩu, ta có thể click vào quên mật khẩu để lấy lại mật khẩu đã quên, nó sẽ update mật khẩu trong bảng TaiKhoan</i></p>
 <img src="imgReadMe/doimk.png" alt="Đăng nhập đúng" width="700px">
