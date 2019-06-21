@@ -8,15 +8,16 @@
         <img src="../Images/Build.jpg" />
         </div>
     <div class="dangnhap">   
-        <h2>Đăng nhập</h2>    
+        <h2>Đăng nhập</h2>
     <asp:TextBox ID="TK" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Inset"></asp:TextBox>
     <br />
     <asp:TextBox ID="MK" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Inset"></asp:TextBox>
     <br />
-   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   &nbsp;&nbsp;&nbsp;&nbsp;
          <asp:Button ID="DangNhap" runat="server" Text="Đăng nhập" BorderStyle="Inset" ForeColor="#FF0066" OnClick="DangNhap_Click" />
-    <br />
-   &nbsp;&nbsp; <asp:Label ID="thongbao" runat="server" Text=""></asp:Label>
+    <br /> 
+        <a href="quenmatkhau.aspx" > <p style="font-style:italic">Quên mật khẩu?</p></a><br \>
+  <asp:Label ID="thongbao" runat="server" Text=""></asp:Label>
         </div>
     <div class="phim"> 
         <h1>Top phim tuần</h1>

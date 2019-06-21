@@ -16,7 +16,7 @@ public partial class theloai_dangnhap : BasePage
     protected void DangNhap_Click(object sender, EventArgs e)
     {
         SqlConnection con = new SqlConnection("Data Source=DESKTOP-2SVCGMM\\SQLEXPRESS;Initial Catalog=website;Integrated Security=True");
-        SqlDataAdapter da = new SqlDataAdapter("Select TaiKhoan,MatKhau From TaiKhoan Where TaiKhoan ='" + TK.Text + "'and MatKhau='"+ MK.Text + "'", con);
+        SqlDataAdapter da = new SqlDataAdapter("Select TaiKhoan,MatKhau From TaiKhoan Where TaiKhoan ='" + TK.Text + "'and MatKhau='" + MK.Text + "'", con);
         DataTable tb = new DataTable();
         da.Fill(tb);
         if (tb.Rows.Count > 0)
