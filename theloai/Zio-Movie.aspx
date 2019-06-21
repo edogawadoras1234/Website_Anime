@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Zio-Movie.aspx.cs" Inherits="theloai_Zio_Movie" %>
+﻿<%@ Page Title="Xem phim Kamen Rider Zio" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Zio-Movie.aspx.cs" Inherits="theloai_Zio_Movie" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -7,7 +7,7 @@
         <img src="../Images/Build.jpg" />
         </div>
 
-    <iframe style="margin-top:10px;margin-left:10px;" width="60%" height="500" src="https://www.youtube.com/embed/RLjDf4S96Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="margin-top:10px;margin-left:10px;" width="52%" height="500" src="https://www.youtube.com/embed/RLjDf4S96Cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     <div class="phim"> 
