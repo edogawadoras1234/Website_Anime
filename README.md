@@ -39,3 +39,11 @@
 <p><i> Đăng nhập đúng sẽ đăng nhập thành công</i></p>
 <img src="imgReadMe/dangnhapdung.png" alt="Đăng nhập đúng" width="700px">
 
+<p><i> Khi người dùng quên mật khẩu, ta có thể click vào quên mật khẩu để lấy lại mật khẩu đã quên, nó sẽ update mật khẩu trong bảng TaiKhoan</i></p>
+<img src="imgReadMe/doimk.png" alt="Đăng nhập đúng" width="700px">
+<img src="imgReadMe/doimk2.png" alt="Đăng nhập đúng" width="700px">
+
+<p><i> Đúng tài khoản, sẽ đổi thành công, nếu tài khoản sai thì báo tài khoản không đúng</i></p>
+<img src="imgReadMe/dmkthanhcong.png" alt="Đăng nhập đúng" width="700px">
+<img src="imgReadMe/doimkthanhcong2.png" alt="Đăng nhập đúng" width="700px">
+
